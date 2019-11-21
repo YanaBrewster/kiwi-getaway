@@ -1411,14 +1411,14 @@ $("#searchBar").ready(function(){
     $("#resultsPage").show();
     $("#checkoutPage").hide();
     $("#confirmedPage").hide();
-    $("#slideshow").hide();
+    // $("#slideshow").hide();
 
     $("#reserve").click(function(){
       $("#resultsPage").hide();
       $("#checkoutPage").show();
       $("#confirmedPage").hide();
       $("#searchBar").hide();
-      $("#slideshow").hide();
+      // $("#slideshow").hide();
       $("#map").hide();
     });
     $("#bookingValid").click(function(){
@@ -1428,16 +1428,15 @@ $("#searchBar").ready(function(){
       $("#confirmedPage").show();
       window.scrollTo(500, 0);
       $("#searchBar").hide();
-      $("#slideshow").show();
+      // $("#slideshow").show();
       $("#map").hide();
     });
     $("#home").click(function(){
       $("#searchBar").show();
-      $("#slideshow").hide();
+      // $("#slideshow").hide();
       $("#resultsPage").hide();
       $("#checkoutPage").hide();
       $("#confirmedPage").hide();
-      $("#slideshow").show();
       $("#map").show();
     });
   });
@@ -1445,13 +1444,13 @@ $("#searchBar").ready(function(){
 
 
 // 3RD PARTY PLUGIN IN JQUERY
-
-$(".owl-carousel").owlCarousel({
-  items:1,
-  margin:10,
-  autoHeight:false,
-  animateOut: "fadeOut"
-});
+//
+// $(".owl-carousel").owlCarousel({
+//   items:1,
+//   margin:10,
+//   autoHeight:false,
+//   animateOut: "fadeOut"
+// });
 
 
 // POP UP IN JS
