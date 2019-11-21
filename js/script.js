@@ -1468,7 +1468,7 @@ function showMore(placeNumber){
     }
   }
 
-  document.getElementById("photo1").src = "css/images/" + singlePlace.photo;
+  document.getElementById("photo1").src = "css/images/" + singlePlace.thumbnail;
   document.getElementById("name").innerText =  singlePlace.name;
   document.getElementById("stars").src = "css/images/"+ singlePlace.stars;
   document.getElementById("description").innerHTML = singlePlace.description;
