@@ -7619,7 +7619,7 @@ p {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   display: none;
   /* display: flex; */
@@ -7633,10 +7633,12 @@ body, html {
 .l-overlay-content {
   width: 70vw;
   max-height: 100vh;
-  height: 100vh;
   background-color: white;
   position: absolute;
   overflow: auto; }
+  @media (max-width: 600px) {
+    .l-overlay-content {
+      width: 95vw; } }
 
 .l-fern {
   background-image: url("images/fern.png");
@@ -7795,9 +7797,6 @@ body, html {
   background-color: #333333;
   z-index: 10000; }
 
-#photo {
-  max-height: 100%; }
-
 #map {
   height: 500px;
   width: 100%;
@@ -7953,9 +7952,6 @@ body, html {
   height: 40px;
   background-color: #333333;
   z-index: 10000; }
-
-#photo {
-  max-height: 100%; }
 
 #map {
   height: 500px;
