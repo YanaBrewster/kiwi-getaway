@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
   display: none;
   /* display: flex; */
@@ -19,13 +19,14 @@ body,html{
 }
 
 .l-overlay-content{
-  width: 70vw;
+  width: 95vw;
   max-height: 100vh;
+  height: 100vh;
   background-color: white;
   position: absolute;
   overflow: auto;
-  @media (max-width: 600px) {
-  width: 95vw;
+  @media (min-width: 600px) {
+  width: 70vw;
   }
 }
 
