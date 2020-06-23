@@ -7597,6 +7597,10 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 0;
   margin: 0; }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden; }
+
 h1 {
   font-family: 'Damion', cursive;
   font-size: 2.9em; }
