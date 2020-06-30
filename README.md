@@ -8,9 +8,9 @@ The Yoobee assignment was to create a single-page web app for booking accommodat
 
 ## View Project Locally
 
-1 – Open your terminal
-2 - Clone this project onto your Desktop with the following command 'git clone https://github.com/YanaBrewster/kiwi-getaway.git'
-3 - Open the folder on a text editor OR view it on your browser by double clicking on the index.html file
+1. Open your terminal
+2. Clone this project onto your Desktop with the following command 'git clone https://github.com/YanaBrewster/kiwi-getaway.git'
+3. Open the folder on a text editor OR view it on your browser by double clicking on the index.html file
 
 ## View Project Documentation
 
